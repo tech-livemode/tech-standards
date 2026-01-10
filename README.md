@@ -140,25 +140,16 @@ Sim, mas é necessário:
 
 ### Com que frequência os padrões são atualizados?
 
-- Revisão trimestral obrigatória
+- Revisão quadrimestral obrigatória
 - Atualizações podem ocorrer a qualquer momento via PR
-- Mudanças críticas são comunicadas via email/slack
+- Mudanças críticas são comunicadas via email/slack ou outro canal oficial
 
 ## 📞 Contato
 
 Para dúvidas ou sugestões:
 - Abra uma issue neste repositório
 - Entre em contato com o time de Tech Lead
-- Discuta no canal #tech-standards no Slack
-
-## 📅 Histórico de Mudanças
-
-### 2024-01
-- Criação do repositório
-- Estabelecimento dos padrões iniciais de desenvolvimento
-- Definição da stack tecnológica obrigatória
-
 ---
 
-**Última atualização**: Janeiro 2024
-**Mantido por**: Time de Engenharia LiveMode
+**Última atualização**: Janeiro 2026
+**Mantido por**: Time de Tech LiveMode
