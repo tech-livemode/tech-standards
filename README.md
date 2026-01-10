@@ -12,7 +12,8 @@ Este repositório contém documentação técnica padronizada para garantir cons
 standards/
 ├── README.md                    # Este arquivo
 ├── development/                 # Padrões de desenvolvimento
-│   ├── development-standards.md
+│   ├── development-standards-javascript.md
+│   └── development-standards-python.md
 │   ├── api-guidelines.md
 │   └── code-review-checklist.md
 ├── architecture/                # Padrões arquiteturais
@@ -24,6 +25,8 @@ standards/
 ├── testing/                     # Padrões de testes
 │   ├── testing-strategy.md
 │   └── test-coverage.md
+├── ai-dev/                      # Guidelines de AI Dev Tools
+│   └── ai-dev-guidelines.md
 └── templates/                   # Templates reutilizáveis
     ├── pr-template.md
     ├── commit-message-template.md
@@ -34,7 +37,9 @@ standards/
 
 ### Para Desenvolvedores
 
-1. **Leia primeiro**: [`development-standards.md`](./development/development-standards.md)
+1. **Leia primeiro**:
+   - Para projetos JavaScript/TypeScript: [`development-standards-javascript.md`](./development/development-standards-javascript.md)
+   - Para projetos Python: [`development-standards-python.md`](./development/development-standards-python.md) (em construção)
 2. **Stack obrigatória**: Next.js, React, Radix/shadcn/ui, PostgreSQL, pnpm/bun
 3. **Antes de começar**: Verifique os padrões relevantes ao seu projeto
 
@@ -47,7 +52,11 @@ standards/
 ## 📖 Documentação Principal
 
 ### Desenvolvimento
-- [Padrões de Desenvolvimento](./development/development-standards.md) - Guia completo de stack, APIs REST, HTTP, erros, logging e mais
+- [Padrões de Desenvolvimento JavaScript](./development/development-standards-javascript.md) - Guia completo de stack, APIs REST, HTTP, erros, logging e mais
+- [Padrões de Desenvolvimento Python](./development/development-standards-python.md) - Em construção
+
+### AI Dev Tools
+- [Guidelines de AI Dev Tools](./ai-dev/ai-dev-guidelines.md) - Recomendações e boas práticas para uso de Cursor, Claude Code, GitHub Copilot e similares
 
 ### Em Breve
 - Guidelines de Arquitetura
@@ -82,10 +91,13 @@ standards/
 
 ## 📋 Checklist de Conformidade
 
-Antes de iniciar um novo projeto, verifique:
-
+### Antes de iniciar um novo projeto:
 - [ ] Stack tecnológica está conforme os padrões
 - [ ] Linters e formatters configurados
+- [ ] Estrutura de pastas definida
+- [ ] Ambiente de desenvolvimento configurado
+
+### Durante o desenvolvimento:
 - [ ] Tratamento de erros implementado
 - [ ] Logging configurado
 - [ ] Crash reporting integrado
