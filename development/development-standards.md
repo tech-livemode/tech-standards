@@ -631,6 +631,16 @@ Ferramentas úteis para monitorar e analisar performance (não obrigatórias):
 - Builds automáticos
 - Deploy automatizado
 
+**Plataformas de Deploy:**
+Quando necessário, nossos deploys costumam usar:
+- **Vercel**: Para aplicações Next.js (recomendado para frontend e full-stack)
+- **GCP (Google Cloud Platform)**: Para serviços backend, APIs e infraestrutura mais complexa
+
+**Considerações:**
+- Vercel oferece integração nativa com Next.js e deploy automático via Git
+- GCP oferece mais flexibilidade para configurações customizadas e serviços gerenciados
+- A escolha depende das necessidades específicas do projeto
+
 ### 7. Versionamento
 
 **Conventional Commits:**
