@@ -58,8 +58,10 @@ standards/
 ### AI Dev Tools
 - [Guidelines de AI Dev Tools](./ai-dev/ai-dev-guidelines.md) - Recomendações e boas práticas para uso de Cursor, Claude Code, GitHub Copilot e similares
 
+### Arquitetura
+- [Estrutura de Projetos](./architecture/project-structure.md) - Princípios básicos de organização e separação de responsabilidades
+
 ### Em Breve
-- Guidelines de Arquitetura
 - Padrões de Segurança
 - Estratégia de Testes
 - Templates de Documentação
