@@ -15,6 +15,29 @@
 - **Tailwind CSS**: Para estilização
 - **Zod**: Para validação de schemas
 
+### Versões das Tecnologias
+
+**Política de Versões:**
+
+Miramos nas versões mais novas das tecnologias (React, Next.js, TypeScript, etc.), mas sempre cientes de que o mais importante é a **compatibilidade do ecossistema**.
+
+**Considerações:**
+- **Prioridade**: Compatibilidade entre todas as dependências do projeto
+- **Atualizações**: Avaliar atualizações considerando breaking changes e compatibilidade
+- **Estabilidade**: Preferir versões estáveis (LTS quando disponível) para projetos em produção
+- **Novos projetos**: Podem usar versões mais recentes se o ecossistema suportar
+
+**Exemplos:**
+- Next.js: Usar versão mais recente estável, verificando compatibilidade com React
+- React: Manter compatibilidade com Next.js e bibliotecas de UI (Radix, shadcn/ui)
+- TypeScript: Versão compatível com Next.js e outras dependências
+
+**Antes de atualizar:**
+- Verificar changelog para breaking changes
+- Testar compatibilidade com todas as dependências
+- Considerar impacto em projetos existentes
+- Validar em ambiente de desenvolvimento antes de produção
+
 ---
 
 ## 🌐 APIs REST - Boas Práticas
